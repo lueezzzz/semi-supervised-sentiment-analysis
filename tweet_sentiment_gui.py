@@ -25,7 +25,7 @@ else:
 
 
 BASE_DIR = Path(__file__).resolve().parent
-EXPORT_DIR = BASE_DIR / "DL Exported Files"
+EXPORT_DIR = BASE_DIR / "models"
 
 
 @dataclass(frozen=True)
